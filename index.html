@@ -1,0 +1,22 @@
+<DOCTYPE! HTML>
+<html>
+  <head>
+    <script src="./src/box-spinner.js"></script>
+    <script>
+      const log = console.log;
+      document.addEventListener('DOMContentLoaded', () => {
+        window.bs = new boxSpinner({
+          front: './asset/img/front.jpg',
+          back: './asset/img/back.jpg',
+          width: "200px",
+          height: "250px",
+          depth: "50px",
+        }).push(document.body.querySelector('#container'));
+      });
+    </script>
+  </head>
+  <body>
+    <div id="container" style="width: 500px;height: 300px;margin-left:100px">
+    </div>
+  </body>
+</html>

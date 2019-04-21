@@ -1,0 +1,8 @@
+{
+  "name": "boxer",
+  "version": "1.0.0",
+  "description": "it's for book",
+  "main": "index.js",
+  "author": "MCY",
+  "license": "MIT"
+}
