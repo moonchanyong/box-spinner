@@ -83,4 +83,3 @@ class BoxSpinner {
     return this;
   }
 }
-export default BoxSpinner;
